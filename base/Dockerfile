@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -y \
 # Install Git
 RUN apt-get update && apt-get install -y git && apt-get clean
 
-# Log directory for supervisord
+# Log directory for easydav & supervisord
 RUN mkdir -p /var/log/supervisor
 
 # Add supporting files (directory at a time to improve build speed)

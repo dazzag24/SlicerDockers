@@ -4,7 +4,7 @@
 
 ARG VERSION="latest"
 
-FROM stevepieper/base:${VERSION}
+FROM dazzag24/base:${VERSION}
 MAINTAINER pieper@isomics.com
 
 # Install
